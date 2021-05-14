@@ -34,3 +34,23 @@ def elegir_participante(participantes):
         participantes.reverse()
     return participantes[0]
 ```
+
+
+### Mejor forma de hacer los 3 (no las hice yo)
+
+```python
+def eliminar_multiplos(cadena, n):
+    return "".join([cadena[i: i+n-1] for i in range(0, len(cadena), n)])
+
+def dar_vuelta(tuplas):
+    resultado = [[] for i in range(len(max(tuplas, key= len)))]
+    for tupla in tuplas:
+        for i in range(len(tupla)):
+            resultado[i].append(tupla[i])
+    return list(map(tuple, resultado))
+
+def elegir_participante(participantes):
+    while len(participantes) > 1:
+        participantes = participantes[1::2][::-1]
+    return participantes[0]
+```
