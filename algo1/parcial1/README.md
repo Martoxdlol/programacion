@@ -14,3 +14,23 @@ def eliminar_multiplos(cadena, n):
         resultado += c
     return resultado
 ```
+
+### Este es una mejor versión del ej1
+```python
+#mentira, me gusta mi solución
+```
+
+### Este es una mejor versión del ej1
+```python
+def eliminar_multiplos_2(lista):
+    resultado = []
+    for i,v in enumerate(lista):
+        if (i+1) % 2 == 0: resultado.append(v)
+    return resultado
+
+def elegir_participante(participantes):
+    while len(participantes) > 1:
+        participantes = eliminar_multiplos_2(participantes)
+        participantes.reverse()
+    return participantes[0]
+```
