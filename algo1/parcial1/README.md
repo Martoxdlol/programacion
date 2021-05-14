@@ -2,6 +2,7 @@
 
 Algoritmos y programación 1 - Ingeniería informática UBA
 
+Las consignas están en los archivos
 
 ### Este es una mejor versión del ej1 (no la hice yo)
 ```python
