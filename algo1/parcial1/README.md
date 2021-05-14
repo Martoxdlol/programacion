@@ -2,8 +2,9 @@
 
 Algoritmos y programación 1 - Ingeniería informática UBA
 
+Las consignas están en los archivos
 
-### Este es una mejor versión del ej1
+### Este es una mejor versión del ej1 (no la hice yo)
 ```python
 def eliminar_multiplos(cadena, n):
     resultado = ''
@@ -35,6 +36,13 @@ def elegir_participante(participantes):
     return participantes[0]
 ```
 
+### Este es una mejor mejor versión del ej3 (no la hice yo)
+```python
+def elegir_participante(participantes):
+    while len(participantes) > 1:
+        participantes = participantes[1::2][::-1]
+    return participantes[0]
+```
 
 ### Mejor forma de hacer los 3 (no las hice yo)
 
