@@ -15,12 +15,12 @@ def eliminar_multiplos(cadena, n):
     return resultado
 ```
 
-### Este es una mejor versión del ej1
+### Este es una mejor versión del ej2
 ```python
 #mentira, me gusta mi solución
 ```
 
-### Este es una mejor versión del ej1
+### Este es una mejor versión del ej3
 ```python
 def eliminar_multiplos_2(lista):
     resultado = []
