@@ -11,9 +11,7 @@ class ListaEnlazada:
 
     def completar_huecos(self):
         actual = self.prim
-        while True:
-            if not actual.prox:
-                break
+        while actual.prox:
             if actual.dato < actual.prox.dato - 1:
                 actual.prox = _Nodo(actual.dato + 1, actual.prox)
             elif actual.dato > actual.prox.dato + 1:
